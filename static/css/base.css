@@ -1,0 +1,270 @@
+body {
+    margin: 0;
+    line-height: 1;
+}
+
+p {
+    line-height: 0.6;
+
+}
+
+a {
+    text-decoration-line: none;
+}
+
+.nav-container {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 46px;
+    display: flex;
+    flex-direction: row;
+    margin: 0px;
+    padding: 0px;
+    background-color: #333;
+    list-style-type: none;
+}
+
+.nav-soundcloud {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 331.5px;
+    height: 46px;
+    width: 184px;
+    background-color: #F50;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+}
+
+.nav-home-button {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 515.5px;
+    height: 46px;
+    width: 104px;
+    background-color: #000;
+    text-align: center;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+}
+
+.nav-stream-button {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 619.5px;
+    height: 46px;
+    width: 104px;
+    background-color: #333;
+    text-align: center;
+    color: #ccc;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    border-right: 1px black solid;
+}
+
+.nav-library-button {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 724.5px;
+    height: 46px;
+    width: 104px;
+    background-color: #333;
+    text-align: center;
+    color: #ccc;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    border-right: 1px black solid;
+}
+
+.nav-search {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 832.5px;
+    width: 382px;
+    height: 26px;
+    background-color: rgb(236, 236, 236);
+    text-align: left;
+    color: rgb(138, 138, 138);
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 25px;
+    margin-top: 10px;
+    margin-left: 6px;
+    padding-left: 10px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.nav-signin {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 1234.5px;
+    width: 58px;
+    height: 20px;
+    background-color: #333;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 12px;
+    padding-bottom: 5px;
+    border-radius: 4px 4px 4px 4px;
+    border: 0.2px rgb(148, 148, 148) solid;
+}
+
+.nav-createaccount {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 1324.5px;
+    width: 108px;
+    height: 23px;
+    background-color: #F50;
+    text-align: left;
+    color: white;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 10px;
+    margin-left: 15px;
+    padding-left: 10px;
+    padding-bottom: 4px;
+    border-radius: 4px 4px 4px 4px;
+}
+
+.nav-upload {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 1450.5px;
+    width: 108px;
+    height: 23px;
+    background-color: none;
+    text-align: center;
+    color: #ccc;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 23px;
+    margin-top: 10px;
+}
+
+.nav-dot-1 {
+    top: 19px;
+    z-index: 1;
+    left: 1545.5px;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.nav-dot-2 {
+    top: 19px;
+    z-index: 1;
+    left: 1553.5px;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.nav-dot-3 {
+    top: 19px;
+    z-index: 1;
+    left: 1561.5px;
+    width: 6px;
+    height: 6px;
+    position: fixed;
+    border-radius: 50%;
+    background-color: #ccc;
+}
+
+.big-title {
+    position: relative;
+    z-index: 1;
+    margin-left: 360px;
+    font-size: 24px;
+    font-family: sans-serif;
+    color: #333;
+}
+
+.small-title {
+    position: relative;
+    z-index: 1;
+    margin-left: 360px;
+    font-family: sans-serif;
+    color: #999;
+}
+
+.body-container {
+    position: fixed;
+    display: flex;
+    width: 1240px;
+    height: 100%;
+    margin-left: 331.5px;
+    margin-top: 46px;
+    background-color: #FFF;
+}
+
+.background {
+    background-color: rgb(236, 236, 236);
+}
+
+.album-container{
+    position: relative;
+    display: block;
+    width: 172px;
+    height: 172px;
+    background-size: cover;
+    
+}
+
+.album-left-margin {
+    width: 340px;
+    height: 120px;
+    display: block;
+    background-color: none;
+}
+
+.line {
+    position: relative;
+    z-index: 1;
+    display: block;
+    height: 1px;
+    width: 40;
+    margin-left: 340px;
+}
+
+.big-explain {
+    text-align: left;
+    font-size: 14px;
+    color: #333;
+    margin-top: 180px;
+    font-family: sans-serif;
+}
+
+.small-explain {
+    position: relative;
+    text-align: left;
+    font-size: 12px;
+    color: #999;
+    font-family: sans-serif;
+
+}
